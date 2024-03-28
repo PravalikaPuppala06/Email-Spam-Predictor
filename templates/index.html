@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Category Prediction</title>
+</head>
+<body>
+    <h1>Email Spam Prediction</h1>
+    <form action="/predict" method="post">
+        <textarea name="email_message" rows="8" cols="50" placeholder="Enter email message..."></textarea><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+<style>
+    h1{
+        color: navy;
+        
+    }
+    input{
+        color:white;
+        border: none;
+        background-color:rgb(154, 36, 134);
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 0.4rem 0.5rem;
+        margin: 0.5rem 0rem;
+    }
+    textarea{
+        padding: 0.5rem;
+    }
+</style>
